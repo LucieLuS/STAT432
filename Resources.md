@@ -6,7 +6,11 @@ username: lul3@illinois.edu
 password: fdc166
 
 
-# Genearl resources
+# General resources (Weibo data)
 1. [WeiboEvent by PKUVIS](http://vis.pku.edu.cn/weibova/weiboevents/index.html)
 
 2. [How researchers around the world are making use of Weibo data](https://ocean.sagepub.com/blog/how-researchers-around-the-world-are-making-use-of-weibo-data)
+
+
+# Machine learning/NLP
+1. [Stanford Core NLP](https://stanfordnlp.github.io/CoreNLP/index.html)
