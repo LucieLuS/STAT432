@@ -1,1 +1,1 @@
-[Causal inference reading group](https://mikedecr.github.io/teaching/causal-inf-2019/)
+[Causal inference reading group by Mike DeCrescenzo](https://mikedecr.github.io/teaching/causal-inf-2019/)
