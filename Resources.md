@@ -14,3 +14,10 @@ password: fdc166
 
 ## Machine learning/NLP
 1. [Stanford Core NLP](https://stanfordnlp.github.io/CoreNLP/index.html)
+
+
+## Workflow
+1. [Github guide](https://docs.github.com/en/github/getting-started-with-github/quickstart)
+
+## Programming
+1. [Swirl course for R learner](https://swirlstats.com/scn/index.html)
