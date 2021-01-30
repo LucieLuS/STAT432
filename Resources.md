@@ -14,6 +14,7 @@ password: fdc166
 
 ## Machine learning/NLP
 1. [Stanford Core NLP](https://stanfordnlp.github.io/CoreNLP/index.html)
+2. [MonkeyLearn: Guide to Text Classification](https://monkeylearn.com/text-classification/)
 
 
 ## Workflow
