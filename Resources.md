@@ -15,6 +15,7 @@ password: fdc166
 ## Machine learning/NLP
 1. [Stanford Core NLP](https://stanfordnlp.github.io/CoreNLP/index.html)
 2. [MonkeyLearn: Guide to Text Classification](https://monkeylearn.com/text-classification/)
+3. [The Element of Statistical Learning (textbook)](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf)
 
 
 ## Workflow
