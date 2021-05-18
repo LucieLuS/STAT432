@@ -13,10 +13,10 @@
 
 # Goal
 
-Call for papers
-Virtual Conference of the International Journal of Press/Politics
-Zoom, 13-16 September 2021
-Deadline for abstracts: 5 July 2021
+## Call for papers
+- Virtual Conference of the International Journal of Press/Politics
+- Zoom, 13-16 September 2021
+- Deadline for abstracts: 5 July 2021
 
 
 
