@@ -5,6 +5,11 @@
 - API
 - Web-scrape
 
+## Total number from Nov 2019 to Dec 2020
+- 紫光阁: 
+- 共青团：6655
+- 热搜：41497
+
 ## Come up with an analysis plan for the data: look at it from different angles
 
 ## Code more trending searches and social media posts
