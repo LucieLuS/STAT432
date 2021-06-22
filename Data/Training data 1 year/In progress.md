@@ -1,2 +1,2 @@
 
-I have scrapped the state-owned media posts on Sina Weibo from November 2019 to November 2020. The sample size is 18,035. In each post, it has hashtag where you can link it to the trending search on Weibo. Now I'm trying to label more data to create a more comprehensive data set. 
+Trending searches on Sina Weibo from November 2019 to December 2020. The full sample size is around 41,497. For this training data, I randomly selected 10,000 and labeled them in 20 categories. Trending searches may not pop up all the 20 categories. 
