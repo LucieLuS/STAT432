@@ -2,6 +2,9 @@
 
 # Content categories
 
+## 7 Level-1 categories, 20 Level-1 + Level-2 categories
+
+
 ## Flatterning news
 1. Achievement (1-1)
 2. Patriotic/festivals (1-2)
@@ -36,8 +39,6 @@
 ## Criminal & Court
 
 ## Civic education
-
-# 7 Level 1 categories, 20 Level 1 + Level 2 categories
 
 
 
