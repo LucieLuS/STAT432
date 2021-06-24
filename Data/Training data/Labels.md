@@ -2,27 +2,43 @@
 
 # Content categories
 
+## 7 Level-1 categories, 20 Level-1 + Level-2 categories
+
+
 ## Flatterning news
-Achievements, Patriotic acts/festivals, Role model, CCP(leader mentions)*
+1. Achievement (1-1)
+2. Patriotic/festivals (1-2)
+3. Role models (1-3)
+4. CCP (1-4)
 
 ## Soft news
-Bizzare, Social affairs-celebrity, Social affairs-trends, Social affairs-environment, Leisure
+1. Bizzare (2-1)
+2. Celebrity Gossip & Social (2-2)
+3. Casual (2-3)
 
-## Social issues
-Social affairs, Social scandal, Social affairs-consumer rights, Social affairs-disaster, Social affairs-economics (something to consider: may move trends here)
+## Current affairs
+1. Society & Issues (3-1)
+2. Government scandals (3-2)
+3. Consumer rights (3-3)
+4. Disasters (3-4)
+5. Economy (3-5)
+6. Trends (3-6)
 
-## Social policy
-Government acts, Social affairs-local policy
+## Government Policy
+1. National policy (4-1)
+2. Local policy (4-2)
 
-## International news
-International affairs (China-US), International affairs (China related), International affairs (non-China), International news (China related), International news (non-China)
 
-## Crime & Court
+## International News
+1. US & China (5-1)
+2. International affairs (China-related) (5-2)
+3. International affairs (World) (5-3)
+4. Issue about Hong Kong and Taiwan (5-4)
 
-## Hong Kong
 
-## Civic education* 
+## Criminal & Court
 
-*The category civic education and the subcategory CCP(leader mentions) excusively exist in the state-owned media. The other categories are shared with both the hot search and the state-owned media posts. 
+## Civic education
+
 
 
