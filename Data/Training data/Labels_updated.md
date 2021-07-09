@@ -1,26 +1,12 @@
 ## 政绩类
-1. 成就：例如航空航天、体育比赛、国际盛事、一带一路等
-2. 爱国/节日：阅兵、解放军纪念、端午节等传统节日
-3. 模范：老兵、解放军、社会人物的好人好事
-4. 党的新闻：国家领导人出行报道
+1. 爱国节日成就：例如航空航天、体育比赛、国际盛事、一带一路、阅兵、解放军纪念、端午节等传统节日
+2. 党的新闻：国家领导人出行报道
 
-## Level I: 1. Political propaganda
-### Level II:
-1. Achievement (1-1)
-2. Nationalism/festivals (1-2)
-3. Role models (1-3)
-4. About the Party and leadership (1-4)
 
 ## 软新闻
-1. 社会怪事
-2. 娱乐圈：娱乐圈的电影、电视、综艺、明星等
-3. 休闲: 双十一、圣诞、情人节、买买买、vlog、旅行打卡、某地下雪了、春风夏至，大熊猫、“女朋友生气的真实写照”等话题、#战疫下的武汉普通人#，高考，复学、开学
+1. 娱乐圈：娱乐圈的电影、电视、综艺、明星等
+2. 休闲: 双十一、圣诞、情人节、买买买、vlog、旅行打卡、某地下雪了、春风夏至，大熊猫、“女朋友生气的真实写照”等话题、#战疫下的武汉普通人#，高考，复学、开学
 
-## Level I: 2. Soft news
-### Level II:
-1. Bizzare (2-1)
-2. Celebrity Gossip & Social (2-2)
-3. Casual (2-3)
 
 ## 社会热点
 1. 社会热点：无法归入以下细分的类别都可以归到这里
@@ -29,45 +15,22 @@
 4. 灾难：沙尘暴、鼠疫、流行性疾病、地震等
 5. 经济：劳工纠纷、经济趋势、比特币、公司亏损、赤字等
 6. 趋势：提及数据、大趋势或人们的观点看法，比如人口增加、女性平权、996、境外输入病例、行动轨迹、病例信息等
+7. 模范：老兵、解放军、社会人物的好人好事
 
-## Level I: 3. Current affairs
-### Level II:
-1. Society & Issues (3-1)
-2. Government scandals (3-2)
-3. Consumer rights (3-3)
-4. Disasters (3-4)
-5. Economy (3-5)
-6. Trends (3-6)
 
 ## 社会政策
-1. 政府政策：各级政府发布政策
-2. 本地政策："长江三角洲区域一体化发展规划纲要"等提到具体地名
-
-## Level I: 4. Government Policy
-### Level II:
-1. National policy (4-1)
-2. Local policy (4-2)
+政府政策：各级政府发布政策与本地政策："长江三角洲区域一体化发展规划纲要"等提到具体地名
 
 
 ## 国际新闻：
 1. 中美关系
 2. 国际新闻（与中国相关，非美国）
 3. 国际新闻（与中国无关）
-4. 香港问题
 
-## Level I： International News
-### Level II:
-1. US & China (5-1)
-2. International affairs (China-related) (5-2)
-3. International affairs (World) (5-3)
-4. Issue about Hong Kong and Taiwan (5-4)
 
 ## 犯罪与审判：
 提及法院审判与警察、检察官等执法部门的案件
 
-## Criminal & Justice
-
-## 公民教育（热搜不存在、央媒新闻存在）：
+## 公民教育：
 早安、晚安、早睡、激励向上性话语、通识教育、普及防疫知识等、病毒溯源、疫苗、招募志愿者疫苗试验、流言不实
 
-## Civic education
