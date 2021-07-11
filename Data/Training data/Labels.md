@@ -28,6 +28,8 @@ Current_affairs_trends
 
 ## Government Policy
 
+Government_policy
+
 
 ## International News
 International_affairs_china_related
@@ -37,8 +39,12 @@ International_affairs_world
 
 ## Criminal & Court
 
+Criminal&court
+
 
 ## Civic education
+
+Civic_education
 
 
 
