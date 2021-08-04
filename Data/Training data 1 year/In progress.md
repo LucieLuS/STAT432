@@ -31,3 +31,5 @@ Training data_Media posts_4Labels_truncatedcontent0722_csv.csv has the media pos
 Trendingsearch_for_labeling_0717.csv is the total file for prediction, some of which has true labels but others are waiting for the machine to attach labels. 
 
 Combined5news.md is where I put the google drive link. The csv. file of the total five media news for prediction is too big.
+
+Trendingsearch_for_labelling_onlymatching.csv contains the posts responded by the state media.
