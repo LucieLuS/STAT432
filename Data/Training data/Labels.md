@@ -6,9 +6,9 @@
 
 
 ## Flattering news
-Flatterning_news_achievement
+Flattering_news_achievement
 
-Flatterning_news_party
+Flattering_news_party
 
 
 ## Soft news
