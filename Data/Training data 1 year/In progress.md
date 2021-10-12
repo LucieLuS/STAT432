@@ -32,4 +32,10 @@ Trendingsearch_for_labeling_0717.csv is the total file for prediction, some of w
 
 Combined5news.md is where I put the google drive link. The csv. file of the total five media news for prediction is too big.
 
-Trendingsearch_for_labelling_onlymatching.csv contains the posts responded by the state media.
+
+### Newer files with media response variables:
+
+Trendingsearch_for_labelling_final_3matches.csv adds the state media response variables (`match.all`). True labels (`Training0.1.2`==1 or 2) are specified. N=41,497
+
+Trendingsearch_for_labelling_onlymatchingwithmedia_tolabel.csv contains the posts responded by the state media only. N=7,011. `Training0.1.2`: `2` means the most recent coding. `1` means in the training data with true labels. `0` requires labelling. 
+
