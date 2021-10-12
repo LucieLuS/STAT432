@@ -2,7 +2,7 @@
 
 # Content categories
 
-## 13
+## The complete 13 sub-labels
 
 
 ## Flattering news
