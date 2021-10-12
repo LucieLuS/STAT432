@@ -79,4 +79,20 @@ Criminal&court
 Civic_education
 
 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Content categories 2
+
+## The 4 labels
+
+- domestic news
+- soft news
+- international news
+- Party news
+
+
+
+
+
+
 
