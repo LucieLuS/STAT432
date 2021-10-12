@@ -1,40 +1,15 @@
-# RA21Summer
-
-## Web-script data: Look at a few other social media accounts on Weibo. 
-- 新华社；紫光阁; 共青团；央视新闻
-- API
-- Web-scrape
-
-## Total number from Nov 2019 to Dec 2020
-- 紫光阁: 
-- 共青团：6655
-- 热搜：41497
-
-## Come up with an analysis plan for the data: look at it from different angles
-
-## Code more trending searches and social media posts
-
-## Clean up the data so it is ready to run the analysis by 6/18/21
-
 # Goal
 
-## Call for papers
-- Virtual Conference of the International Journal of Press/Politics
-- Zoom, 13-16 September 2021
-- Deadline for abstracts: 5 July 2021
+- First meeting w/ Prof. Zhu: early November where we discuss primilnary results and make sure the data is ready for analysis
+- Second meeting w/Prof. Zhu: after the fall break we discuss outline
 
-
-
-# Mentoring21SP
-
-## Literatue review on classification (what are the methods we can use?)
-- In progress
-
-## Web-scrape data (public agenda: posted on Github then we need to turn it into excel format)
-
-- Explained where and how the trending data are stored in .md format in other Github repository. We need to change the existing scrippted files to one program-readable file (excel or other format).
 
 ## Write a machine-learning algorithm to classify the categories of the posts and trending searches
 
 - Explained what the end goals of the algorithm look like.
 - The computer can pick up the common characteristics of the posts in the hand-coded labels and be able to do it automatically. (supervised learning)
+
+
+## Code more information about the trending searches
+- What's our X? (piexel)
+- Covariates: readership, discussion posts, top 10 comments from the most commented/leading Weibo posts under that trending search harshtag
