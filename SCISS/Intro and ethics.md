@@ -7,3 +7,6 @@
 
 - Complement other tools; don't replace them.
 - Don't change our goals: to understand our social world.
+
+- Try to understand how the other diciplines work. Try to look at the world from the others' perspectives. 
+- Only when can we understand from others' perspectives, we can make better research. 
