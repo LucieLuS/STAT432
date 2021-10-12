@@ -11,7 +11,7 @@
 
 
 ## Code more information about the trending searches
-- What's our X, features of the trending searchs? (piexel)
+- What's our X, feature columns of the trending searchs? (piexel)
 - Attributes of X: readership, discussion posts, top 10 comments from the most commented/leading Weibo posts under that trending search harshtag
 
 
