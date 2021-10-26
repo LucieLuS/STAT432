@@ -20,3 +20,11 @@
 - With the host, we are able to distinguish which trending searches are ininitiated by the state-owned media. We are able to point out the causal arrow: Do media respond or do they initiate?
 - Look into `brandwatch`
 - Check methods and tools in addition to bag-of-words & jieba package
+
+## Meeting memo 10/26
+- In preparation for meeting with Prof. Zhu, we'll touch base on 10/31 briefly, and meet on 11/2 as usual. Xiaofan will focus on summary of data, using Trendingsearch_for_labelling_final_3matches.csv. Lucie will continue to work on the model fitting stage.
+- Workflows:
+- 1. Summary of data: using the training data with true labels, N = 10,000 to calculate the response rates and others.
+- 2. Model fitting: create features of your X to predict labels. Train the models in the training data using cross-validation.
+- 3. Predict labels predict the labels in the testing set. Need some human validation to check accuracy.
+- 4. Predict response rates: using the covariates of the trending search to predict which types of trending searches are more likely to be responded by the state media posts.
