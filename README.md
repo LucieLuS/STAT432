@@ -11,7 +11,7 @@
 
 
 ## Code more information about the trending searches
-- What's our X, feature columns of the trending searchs? (piexel)
+- What's our X, the text feature columns of the trending searchs? (piexel)
 - Attributes of X: readership, discussion posts, top 10 comments from the most commented/leading Weibo posts under that trending search harshtag
 
 
@@ -28,3 +28,13 @@
 - 2. Model fitting: create features of your X to predict labels. Train the models in the training data using cross-validation.
 - 3. Predict labels predict the labels in the testing set. Need some human validation to check accuracy.
 - 4. Predict response rates: using the covariates of the trending search to predict which types of trending searches are more likely to be responded by the state media posts.
+
+### More on model fitting stage:
+
+we can now use machine learning models to classify text into specific sets of categories. This is known as **supervised learning**. The basic process is:
+
+- Hand-code a small set of documents for whatever variable(s) you care about
+- Train a machine learning model on the hand-coded data, using the variable as the outcome of interest and the text features of the documents as the predictors
+- Evaluate the effectiveness of the machine learning model via cross-validation
+- Once you have trained a model with sufficient predictive accuracy, apply the model to the remaining set of documents that have never been hand-coded
+
