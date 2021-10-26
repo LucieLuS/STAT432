@@ -22,15 +22,15 @@ Trendingsearch_for_labeling_0717
 
 
 ## File explanations
-**Training data_combined_4Labels.csv** is the original true labels one with both sources.  
+01. **Training data_combined_4Labels.csv** is the original true labels one with both sources.  
 
-**Training data_Trendingsearch_4Labels.csv** has only the trending search true labels. 
+02. **Training data_Trendingsearch_4Labels.csv** has only the trending search true labels. 
 
-**Training data_Media posts_4Labels_truncatedcontent0722.csv** has the media posts only. 
+03. **Training data_Media posts_4Labels_truncatedcontent0722.csv** has the media posts only. 
 
-**Trendingsearch_for_labeling_0717.csv** is the total file for prediction, some of which has true labels but others are waiting for the machine to attach labels. 
+04. **Trendingsearch_for_labeling_0717.csv** is the total file for prediction, some of which has true labels but others are waiting for the machine to attach labels. 
 
-Combined5news.md is where I put the google drive link. The csv. file of the total five media news for prediction is too big.
+05. Combined5news.md is where I put the google drive link. The csv. file of the total five media news for prediction is too big.
 
 
 ### Two files with media response variables:
@@ -39,13 +39,13 @@ Combined5news.md is where I put the google drive link. The csv. file of the tota
 - 1. Keywords: using government agencies as keywords in the trending searches. 
 - 2. Using the Standard Levenshtein distance between social media posts and trending searches (the most conservative, minimal distance) to do the matching.
 
-**Trendingsearch_for_labelling_final_3matches.csv** adds the state media response variables (`match.all`). True labels (`Training0.1.2`==1 or 2) are specified. N=41,497
+06. **Trendingsearch_for_labelling_final_3matches.csv** adds the state media response variables (`match.all`). True labels (`Training0.1.2`==1 or 2) are specified. N=41,497
 
-**Trendingsearch_for_labelling_onlymatchingwithmedia_tolabel.csv** contains the posts responded by the state media only. N=7,011. `Training0.1.2`: `2` means the most recent coding. `1` means in the training data with true labels. `0` requires labelling. 
+07. **Trendingsearch_for_labelling_onlymatchingwithmedia_tolabel.csv** contains the posts responded by the state media only. N=7,011. `Training0.1.2`: `2` means the most recent coding. `1` means in the training data with true labels. `0` requires labelling. 
 
 
 ### For analysis:
 
 #### Text only .txt. file:
-**Trendingsearch_all_textonly.txt** contains all the trending searches with main text only. Used to create document matrix.
+08. **Trendingsearch_all_textonly.txt** contains all the trending searches with main text only. Used to create document matrix.
 
