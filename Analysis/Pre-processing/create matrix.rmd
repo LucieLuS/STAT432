@@ -1,0 +1,101 @@
+---
+title: "Pre-processing (Used for meeting 10/26)"
+author: "Lucie Lu"
+date: "10/26/2021"
+output: pdf_document
+---
+
+###tidytext
+###https://www.tidytextmining.com/tidytext.html
+
+```{r load data}
+#texts <- readLines("C:/Users/Lucie Lu/Box Sync/Summer writing 2021/Final_data_textonly_txt", 
+#                   encoding="UTF-8")
+
+# all trending search, data saved on github
+texts <- readLines("https://raw.githubusercontent.com/LucieLuS/STAT432/main/Data/Training%20data%201%20year/Trendingsearch_all_textonly.txt?token=AINC7G5RPQDQI2NVB7637A3BPABSW", 
+                   encoding="UTF-8")
+```
+
+```{r remove stop words}
+#use jiebaR to tokenize
+#jieba documentaion http://qinwenfeng.com/jiebaR/section-3.html#-new_user_word
+#install.packages("jiebaR")
+library(jiebaR)
+tok_rm1 <- worker(bylines = TRUE, stop_word = 'C:/Users/Lucie Lu/Box Sync/Summer writing 2021/hit_stopwords.txt',
+            type = 'mix')
+
+segment_tok_rm1 <- segment(texts, tok_rm1)
+
+#checked 1-1200
+head(segment_tok_rm1[1:100], 20)
+
+#create customized words! work now!
+tags = c(rep("n", 41))
+add_words <- new_user_word(tok_rm1, words = c("买买买", "表情包", "中联办", "内地生", "双11", "穿搭", "红磡",
+                                              "易烊千玺", "福原爱", "小s", "华晨宇", "雷佳音",
+                                              "德库拉", "郑云龙", "林峯", "张馨月", "王多多", "接盘侠",  "笑点",
+                                              "庆余年", "王子文", "渣男", "二师兄", "房企",
+                                              "霍建华", "刘诗诗", "杨超越", "一句话",  "伤医案", "遇害案", "90后",
+                                              "孔刘", "莫兰特", "B站", "哈利波特", "汤唯",
+                                              "2万", "撒贝宁", "5G", "8k版", "娜扎"),
+                           tags)
+
+##come back and work on new_user_word
+segment_tok_rm1 <- segment(texts, tok_rm1)
+segment_tok_rm1 <- segment_tok_rm1[-1]
+head(segment_tok_rm1, 10)
+```
+
+```{r, eval=F}
+#create a term-document matrix!
+#install.packages("tm")
+library(tm)
+
+myCorpus <- Corpus(VectorSource(segment_tok_rm1))
+myTdm <- TermDocumentMatrix(myCorpus, control=list(wordLengths=c(1,Inf)))
+```
+
+```{r read chinese}
+#install.packages("tmcn", repos="http://R-Forge.R-project.org")
+#Rdocumentation
+#https://www.rdocumentation.org/packages/tmcn/versions/0.2-13
+# class TermDocumentMatrix
+library(tmcn)
+myTdm2 <- createTDM(segment_tok_rm1, language = "zh", tokenize = NULL, removePunctuation = TRUE, 
+  removeNumbers = TRUE, removeStopwords = TRUE)
+```
+
+The term-document matrix is composed of 12,955 terms and 8534 documents. It is very sparse, with 100% of the entries being zero. 
+
+```{r}
+idx <- which(dimnames(myTdm2)$Terms == "香港")
+inspect(myTdm2[idx,])
+```
+
+We then have a look at the documents containing with “香港” and the results show that 70 documents contain this term. 
+
+```{r}
+# create word frequency table
+WF1 <- createWordFreq(myTdm2, onlyCN = TRUE, nosymbol = TRUE, stopwords = NULL,
+  useStopDic = FALSE)
+View(WF1)
+
+```
+
+
+```{r, warning=F}
+# remove sparse terms
+#myTdm3 <- removeSparseTerms(myTdm2, sparse=0.95)
+m2 <- as.matrix(myTdm2)
+wordFreq <- sort(rowSums(m2), decreasing=TRUE)
+
+
+# word cloud
+#install.packages("wordcloud")
+library(wordcloud)
+set.seed (375) # to make it reproducible
+grayLevels <- gray( (wordFreq+10) / (max(wordFreq)+10))
+wordcloud(words=names(wordFreq), freq=wordFreq, min.freq=3,
+random.order=F, colors=grayLevels)
+```
