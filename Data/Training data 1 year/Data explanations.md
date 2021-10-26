@@ -43,3 +43,9 @@ Combined5news.md is where I put the google drive link. The csv. file of the tota
 
 **Trendingsearch_for_labelling_onlymatchingwithmedia_tolabel.csv** contains the posts responded by the state media only. N=7,011. `Training0.1.2`: `2` means the most recent coding. `1` means in the training data with true labels. `0` requires labelling. 
 
+
+### For analysis:
+
+#### Text only .txt. file:
+**Trendingsearch_all_textonly.txt** contains all the trending searches with main text only. Used to create document matrix.
+
