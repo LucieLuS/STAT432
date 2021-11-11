@@ -1,6 +1,6 @@
 ## 政绩类
 1. 爱国/节日/成就/模范：例如航空航天、体育比赛、国际盛事、一带一路、阅兵、解放军纪念、端午节等传统节日、模范：老兵、解放军、社会人物的好人好事
-2. 党的新闻：国家领导人出行报道
+2. 党的新闻：国家领导人出行报道 (only show up in social media posts)
 
 
 ## 软新闻
@@ -88,7 +88,7 @@ Civic_education
 - domestic news
 - soft news
 - international news
-- Party news
+- flattering news
 
 
 
