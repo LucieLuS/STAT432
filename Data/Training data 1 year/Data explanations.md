@@ -49,3 +49,7 @@ Total：N=70,799
 #### Text only .txt. file:
 08. **Trendingsearch_all_textonly.txt** contains all the trending searches with main text only. Used to create document matrix.
 
+### Trending Search labels predicted and a bunch of additional variables added in the second round of coding:
+
+11. Trendingsearch_for_labelling_completedata
+
