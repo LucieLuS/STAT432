@@ -1,5 +1,5 @@
 ## 政绩类
-1. 爱国/节日/成就/模范：例如航空航天、体育比赛、国际盛事、一带一路、阅兵、解放军纪念、端午节等传统节日、模范：老兵、解放军、社会人物的好人好事
+1. 爱国/节日/成就/模范：例如航空航天、体育比赛、国际盛事、一带一路、阅兵、解放军纪念、端午节等传统节日、模范：老兵、解放军、警察、消防员、社会人物的好人好事
 2. 党的新闻：国家领导人出行报道 (only show up in social media posts)
 
 
@@ -57,7 +57,7 @@ Current_affairs_disasters
 
 Current_affairs_economy 
 
-Current_affairs_trends (move to  Soft_news_casual)
+Current_affairs_trends (move to Soft_news_casual)
 
 
 ### Criminal & Court
