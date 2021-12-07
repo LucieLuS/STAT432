@@ -5,14 +5,14 @@
 
 ## 软新闻
 1. 娱乐圈：娱乐圈的电影、电视、综艺、明星等
-2. 休闲: 双十一、圣诞、情人节、买买买、vlog、旅行打卡、某地下雪了、春风夏至，大熊猫、“女朋友生气的真实写照”等话题、#战疫下的武汉普通人#，高考，复学、开学
+2. 休闲: 双十一、圣诞、情人节、买买买、vlog、旅行打卡、某地下雪了、春风夏至，大熊猫、“女朋友生气的真实写照”等话题、#战疫下的武汉普通人#，高考，复学、开学， 趋势：提及数据、大趋势或人们的观点看法，比如人口增加、女性平权、996、境外输入病例、行动轨迹、病例信息等; 女生驼背的原因；是什么感受、是什么体验、如何看待、...的最大区别
 
 
 ## 社会热点
 1. 社会热点：无法归入以下细分的类别都可以归到这里 
 2. 灾难：沙尘暴、鼠疫、流行性疾病、地震等
 3. 经济：劳工纠纷、经济趋势、比特币、公司亏损、赤字等、消费者权益：毒牛奶、毒面霜等食品安全问题、消费质量问题
-4. 趋势：提及数据、大趋势或人们的观点看法，比如人口增加、女性平权、996、境外输入病例、行动轨迹、病例信息等; 女生驼背的原因；是什么感受、是什么体验、如何看待、...的最大区别
+
 
 
 ## 政府政策
@@ -48,17 +48,30 @@ Soft_news_celebrity&social
 
 Soft_news_casual
 
+## Domestic news
 
-## Current affairs
+### Current affairs
 Current_affairs_society&issues
 
 Current_affairs_disasters 
 
 Current_affairs_economy 
 
-Current_affairs_trends
+Current_affairs_trends (move to  Soft_news_casual)
 
-## Government Policy
+
+### Criminal & Court
+
+Criminal&court
+
+
+### Civic education
+
+Civic_education
+
+
+
+### Government Policy
 
 Government_policy
 
@@ -68,15 +81,6 @@ International_affairs_china_related
 
 International_affairs_world
 
-
-## Criminal & Court
-
-Criminal&court
-
-
-## Civic education
-
-Civic_education
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
